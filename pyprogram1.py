@@ -1,0 +1,6 @@
+name=input("Enter the name:")
+usn=input("Enter your USN:")
+mob=int(input("Enter your phone number:"))
+print("The student name:",name)
+print("The student USN:",usn)
+print("The Mobile number:",mob)
