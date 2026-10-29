@@ -1,0 +1,26 @@
+# Read name usn 3 courses and marks of a student and print the details          
+#display the details in a proper format     
+name=input("Enter the name:")
+usn=input("Enter your USN:")    
+course1=input("Enter the course 1:")
+course2=input("Enter the course 2:")    
+course3=input("Enter the course 3:")
+marks1=int(input("Enter the marks of course 1:"))
+marks2=int(input("Enter the marks of course 2:"))
+marks3=int(input("Enter the marks of course 3:"))
+total_marks=marks1+marks2+marks3
+avrg=total_marks/3   
+print("*" * 50)
+print("Student Details:")
+print("Name:", name)
+print("USN:", usn)
+print("Courses\t\tMarks")
+print(course1,"\t\t", marks1)
+print(course2,"\t\t", marks2)
+print(course3,"\t\t", marks3)
+print("Total Marks:", total_marks)
+print("Average Marks:", avrg)
+print("*" * 50)
+print(f"Total Marks:         {total_marks}")
+print(f"Average Marks:       {avrg}")
+print("*" * 50)
